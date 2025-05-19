@@ -117,8 +117,8 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/yourusername/java-sorting-algorithms.git
-    cd java-sorting-algorithms
+    git clone https://github.com/observernear/SortingAlgorithmsCollection.git -o SortingAlgorithmsCollection
+    cd SortingAlgorithmsCollection 
     ```
 
 2. Соберите проект с помощью вашей любимой IDE (IntelliJ IDEA, Eclipse) или через командную строку:
@@ -127,7 +127,7 @@
     java -cp out algo.Main
     ```
 
-3. В `Main.java` можно настроить:
+3. В [`Main.java`](src/algo/Main.java) и [`Benchmark.java`](src/algo/Benchmark.java) можно настроить:
     - Размер генерируемого массива
     - Выбор алгоритмов для запуска
-    - Использование кастомных компараторов**
+    - Использование кастомных компараторов
